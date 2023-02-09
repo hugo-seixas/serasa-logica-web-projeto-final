@@ -1,14 +1,14 @@
 body {
-    background-color: #ffefc4;
+    background-color: gray;
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
 }
 
 header {
-    background-color: #F9C73E;    
+    background-color: black;    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,20 +24,22 @@ header p{
 }
 
 a{
-    color: black;
+    color: white;
     
 }
 
 .icones {
     
     width: 3.5rem;
-    padding: 0.5rem;
+    padding: 0.5rem;    
+    filter: invert(100%);
     
 }
 
 .icone_modo_dark{
     
     width: 1rem;
+    filter: invert(100%);
     
 }
 
@@ -54,7 +56,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-color: black;
+    border-color: white;
     border-bottom-style: solid;
     font-size: 25px;
     align-items:center;
@@ -87,9 +89,9 @@ figure img {
     
     height: 55px;
     width: 155px;
-    background-color: #F9C73E;
-    border-radius: 50px;
-    color: black;     
+    background-color: black;
+    border-radius: 50px;   
+    color: white; 
     
 }
 
@@ -118,7 +120,7 @@ figure img {
     
     text-align: center;
     border-radius: 20px;
-    background-color: #F9C73E;
+    background-color: black;
     width: 100px;
     height: 60px;
     
@@ -141,7 +143,7 @@ figure img {
 }
 
 .rodape{
-    background-color: #F9C73E;
+    background-color: black;
     display: flex;
     justify-content:center;
     align-items:center;
